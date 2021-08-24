@@ -1,5 +1,9 @@
-function Date() {
-    console.log(2021/8/24 Function)
+-
+function date() {
+    console.log(20210824)
 }
 
-Date()
+date()
+
+--
+mm
