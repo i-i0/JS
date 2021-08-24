@@ -1,0 +1,48 @@
+Passenger Counter App
+
+[Basic Function]
+
+function date() {
+    console.log(20210825)
+}
+
+date()
+
+***
+
+[Icrement Function]
+
+let lapsCompleted = 0
+
+// Create a function that increments the lapsCompleted variable with one
+// Run it three times
+
+function incrementLap() {
+    lapsCompleted = lapsCompleted + 1
+}
+
+incrementLap()
+incrementLap()
+incrementLap()
+
+console.log(lapsCompleted)
+
+***
+
+[Interactive Count Function]
+
+// document.getElementById("count-el").innerText = 5
+
+// change the count-el in the HTML to reflect the new count
+
+// camelCase
+let countEl = document.getElementById("count-el")
+
+console.log(countEl)
+
+let count = 0
+
+function increment() {
+    count = count + 1
+    countEl.innerText = count
+}
