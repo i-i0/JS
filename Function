@@ -1,9 +1,0 @@
--
-function date() {
-    console.log(20210824)
-}
-
-date()
-
---
-mm
